@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #fff8f2;
+    --outsideGutters: 40px;
+    --headerWidth: 90px;
+}
+
+body {
+    background: var(--background);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.sticky-logo {
+    position: fixed;
+    top: var(--outsideGutters);
+    left: var(--outsideGutters);
+}
+
+.logo-tagline {
+    position: absolute;
+    top: calc(var(--outsideGutters) + 6px);
+    left: calc(var(--outsideGutters) + 64px);
+}
