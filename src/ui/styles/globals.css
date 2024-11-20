@@ -33,3 +33,10 @@ body {
     top: calc(var(--outsideGutters) + 6px);
     left: calc(var(--outsideGutters) + 64px);
 }
+
+@media screen and (max-width: 768px) {
+    .sticky-logo {
+        top: 15px;
+        left: 10px;
+    }
+}

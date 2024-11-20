@@ -1,3 +1,35 @@
 .collection__text {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+.collections__shop-button {
+    transition:
+        background-color 0.3s ease-in,
+        color 0.3s ease-in,
+        border-color 0.3s ease-in,
+        mix-blend-mode 0.3s ease-in;
+}
+
+.collections__shop-button:hover {
+    background-color: #181818;
+    border-color: #181818;
+    color: #fff8f2;
+    mix-blend-mode: normal;
+
+    transition: all 0.3s ease-in;
+}
+
+.collections__learn-button {
+    transition:
+        background-color 0.3s ease-in,
+        color 0.3s ease-in,
+        border-color 0.3s ease-in;
+}
+
+.collections__learn-button:hover {
+    background-color: #181818;
+    border-color: transparent;
+    color: #fff8f2;
+
+    transition: all 0.3s ease-in;
+}

@@ -1,0 +1,7 @@
+.footer__nav-item {
+    transition: color 0.1s ease-in;
+}
+
+.footer__nav-item:hover {
+    color: #0f0f0f;
+}

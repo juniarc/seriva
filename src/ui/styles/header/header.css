@@ -3,3 +3,10 @@
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .header__wrapper {
+        left: 0;
+        right: auto;
+    }
+}

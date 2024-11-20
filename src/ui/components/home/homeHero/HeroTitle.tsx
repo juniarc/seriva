@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -39,7 +41,9 @@ export default function HeroTitle() {
         gsap.fromTo(".word3__char5", { scale: 1.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 1 });
     }, []);
     return (
-        <div className={`${bebasNue.className} hero__title text-off-white text-[13vw] flex flex-col gap-0 leading-[.75] pt-52`}>
+        <div
+            className={`${bebasNue.className} hero__title text-off-white text-[13vw] mobile:text-[6.25rem] flex flex-col gap-0 leading-[.75] pt-52 mobile:pt-40`}
+        >
             {heroTexts.map((word, wordIndex) => (
                 <span key={wordIndex} className={`word${wordIndex} inline-block`} style={{ "--word-index": wordIndex } as React.CSSProperties}>
                     {word

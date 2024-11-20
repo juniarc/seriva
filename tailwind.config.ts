@@ -13,6 +13,9 @@ const config: Config = {
                 "red-pink": "#FF6767",
             },
         },
+        screens: {
+            mobile: { max: "768px" },
+        },
     },
     plugins: [],
 };
